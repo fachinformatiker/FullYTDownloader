@@ -1,0 +1,6 @@
+--format ("bestvideo[width>=1920]"/bestvideo)+bestaudio/best
+--download-archive archive.txt
+--output %(uploader)s/%(title)s.%(id)s.%(upload_date)s.%(ext)s
+--restrict-filenames
+--merge-output-format mkv
+--ignore-errors
